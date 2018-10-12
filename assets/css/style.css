@@ -1,0 +1,182 @@
+/* cascading style sheet */
+/* Universal Selector "*" everything is covered*/
+* {
+	/*margin: 0;
+	padding: 0;*/
+
+}
+
+/*selector - can be a class, id, etc -- selector {}*/
+h1{
+	margin:0; /*if only "margin without sides it means its applicable to all"*/
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.container{ /*container is the container/class that wraps all our content*/
+	width: 1000px;
+	margin: 0 auto;
+	/*background-color:  #f2f2f2; /*off-white*/
+	color: #404040; /*off-black*/
+}
+
+header {
+	word-spacing: 4px;
+	letter-spacing: 2px;
+	background-color: #006494; /*aqua*/
+	height: 70px;
+	color: #fff;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	
+}
+
+footer {
+	background-color: #006494; /*#a6a6a6; *//*grey*/
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	margin-top: 70px;
+	font-family: 'Titillium Web', sans-serif;
+	border-radius: 10px;
+	/*border:2px solid black;*/
+}
+/*	height: 70px;
+	line-height: 70px;
+	to make it at the center*/
+
+.dashboard-thumbnail {
+	display: inline-block; /*since div or <p> is block element this is to make it an inline element*/
+	width: 20%;
+	height: 100px;
+	/*border: 1px solid red;*/
+	margin-left:10px;
+}
+
+.dashboard-circles {
+	height: 70px;
+	width: 70px;
+	background-color: red;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	color: #fff;    /*white*/
+	margin-right: 5px;
+	float: left;
+	margin-left: 5px;
+}
+
+#post-circle {
+	background-color: #4B9CD3;
+	margin-left: 50px;
+}
+
+#image-circle {
+	background-color: #11894B;
+	margin-left: 50px;
+}
+
+#winks-circle {
+	background-color: #F7D488;
+	margin-left: 50px;
+}
+#post-title {
+	margin-top: 10px;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+
+#post-content {
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.btn {
+	border; none;
+	padding: 10px 45px; /*1st padding vertical 2nd padding horizontal */
+	font-size: 14px;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.btn-blue {
+background-color: #4B9CD3;
+}
+
+.btn-green {
+background-color: #11894B;
+}
+
+.btn-browse {
+	margin-left: 20px;
+}
+
+.hide-overflow {
+	overflow: hidden;
+}
+
+.image-set {
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	padding: 5px; /*one value for padding all sides applied*/
+	border-radius: 5px;
+	margin: 0 5px;
+}
+
+.img-set-holder {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.inline-blocked {
+	display: inline-block;
+}
+
+.dashboard-text {
+margin: 0;
+font-size: 20px;
+width: 100%;
+text-align:  center; 
+}
+
+main {
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+	
+
+}
+
+body {
+	background-color: #f7f6f0;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23f9ffd1' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23b0d6ad' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6f8d1' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23c1cc9d' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23b5efd6' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23cfc195' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%239be3df' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23d9b794' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%238cd6e5' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23ddad99' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%238cc6e6' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23dba5a2' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+#btn-publish,
+#btn-upload,
+#btn-browse {
+	float: right;
+}
+
+h3 {
+	color: #006494;
+	margin-bottom: 10px;
+}
+
+/*.main-dashboard{
+	border: 2px solid green;
+}*/

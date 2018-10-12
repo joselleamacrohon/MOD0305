@@ -1,0 +1,144 @@
+/* cascading style sheet */
+/* Universal Selector "*" everything is covered*/
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*selector - can be a class, id, etc -- selector {}*/
+h1{
+	margin:0; /*if only "margin without sides it means its applicable to all"*/
+}
+
+.container{ /*container is the container/class that wraps all our content*/
+	width: 700px;
+	margin: 0 auto;
+	background-color:  #f2f2f2; /*off-white*/
+	color: #404040; /*off-black*/
+}
+
+header {
+	word-spacing: 2px;
+	background-color: #09c; /*aqua*/
+	height: 70px;
+	color: #fff;
+	text-align: center;
+	line-height: 70px;
+	font-size: 10px;
+}
+
+footer {
+	background-color: #a6a6a6; /*grey*/
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #fff;
+}
+/*	height: 70px;
+	line-height: 70px;
+	to make it at the center*/
+
+.dashboard-thumbnail {
+	display: inline-block; /*since div or <p> is block element this is to make it an inline element*/
+	width: 40%;
+	height: 100px;
+}
+
+.dashboard-circles {
+	height: 70px;
+	width: 70px;
+	background-color: red;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	color: #fff;    /*white*/
+	margin-right: 20px;
+	float: left;
+
+}
+
+#post-circle {
+	background-color: #4caf50;
+	margin-left: 60px;
+}
+
+#image-circle {
+	background-color: #09c;
+	margin-left: 60px;
+}
+
+#post-title {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+
+#post-content {
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.btn {
+	border; none;
+	padding: 15px 30px; /*1st padding vertical 2nd padding horizontal */
+	font-size: 14px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.btn-blue {
+background-color: #09c;
+}
+
+.btn-green {
+background-color: #4CAF50;
+}
+
+.btn-browse {
+	margin-left: 20px;
+}
+
+.hide-overflow {
+	overflow: hidden;
+}
+
+.image-set {
+	height: 70px;
+	width: 100px;
+	background-color: white;
+	padding: 5px; /*one value for padding all sides applied*/
+	border-radius: 5px;
+	margin: 0 5px;
+}
+
+.img-set-holder {
+	text-align: center;
+}
+
+.inline-blocked {
+	display: inline-block;
+}
+
+.dashboard-text {
+margin: 0;
+font-size: 24px;
+width: 100%;
+text-align:  center; 
+}
+
+main {
+	padding: 20px;
+}
+
+
+#btn-publish,
+#btn-upload,
+#btn-browse {
+	float: right;
+}
